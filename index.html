@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notice - PM SHRI KV Khagaria</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+      color: #333;
+      animation: fadeIn 1s ease-in;
+      padding: 30px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      animation: slideUp 0.8s ease-out;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .notice-section {
+      margin-bottom: 30px;
+      animation: slideIn 1s ease-out;
+    }
+
+    .notice-section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #0277bd;
+      border-left: 5px solid #0288d1;
+      padding-left: 10px;
+    }
+
+    .notice-box {
+      background: #e1f5fe;
+      border-left: 6px solid #0288d1;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .notice-box:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-style: italic;
+      color: #666;
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .notice-section h3 {
+        font-size: 1.2rem;
+      }
+
+      .notice-box {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📌 NOTICE BOARD</h1>
+      <h2>PM SHRI Kendriya Vidyalaya Khagaria</h2>
+    </header>
+
+    <section class="notice-section">
+      <h3>Class Teacher Notice</h3>
+      <div class="notice-box">
+        <p><strong>Subject:</strong> Update Student Records</p>
+        <p>All class teachers are requested to update student attendance and records by this Friday on the school portal. Please ensure completeness and accuracy.</p>
+        <p><strong>Date:</strong> 15 July 2025</p>
+      </div>
+    </section>
+
+    <section class="notice-section">
+      <h3>General Teacher Notice</h3>
+      <div class="notice-box">
+        <p><strong>Subject:</strong> Monthly Staff Meeting</p>
+        <p>All faculty members are requested to attend the monthly staff meeting scheduled on 18 July 2025 at 2:00 PM in the main conference hall.</p>
+        <p><strong>Date:</strong> 15 July 2025</p>
+      </div>
+    </section>
+
+    <footer>
+      Designed by Ankush Singh
+    </footer>
+  </div>
+</body>
+</html>
